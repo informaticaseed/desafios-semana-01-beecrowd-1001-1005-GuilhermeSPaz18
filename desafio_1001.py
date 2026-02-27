@@ -14,7 +14,7 @@ você receberá "Presentation Error".
 # Escreva sua solução abaixo
 
 
-5 = int(input())
-10 = int(input())
-X = 5 + 10
+A = int(input())
+B = int(input())
+X = A + B
 print(f"X = {X}")
