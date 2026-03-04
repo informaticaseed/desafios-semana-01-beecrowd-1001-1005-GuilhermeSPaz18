@@ -22,21 +22,9 @@ exemplo abaixo, com 4 casas após o ponto decimal. Utilize variáveis de dupla p
 #include <iostream>
 #include <iomanip> // Necessário para configurar as casas decimais
 
-using namespace std;
+raio = float(input())
 
-int main() {
-    double raio, area;
-    double pi = 3.14159;
+pi = 3.14159
+area = pi * (raio ** 2)
 
-    // Leitura do valor de entrada
-    cin >> raio;
-
-    // Cálculo da área
-    area = pi * (raio * raio);
-
-    // Configuração da saída: 4 casas decimais
-    cout << fixed << setprecision(4);
-    cout << "A=" << area << endl;
-
-    return 0;
-}
+print(f"A={area:.4f}")
